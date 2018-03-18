@@ -1,5 +1,6 @@
 "use strict";
-var GraphService = (function () {
+exports.__esModule = true;
+var GraphService = /** @class */ (function () {
     function GraphService() {
     }
     return GraphService;

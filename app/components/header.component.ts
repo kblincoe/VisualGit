@@ -41,12 +41,12 @@ import { GraphService } from "../services/graph.service";
           </ul>
 
           <ul class="navbar-nav col-md-4 hidden-xs">
-            <li class="upload"><i class="fa fa-cloud-upload fa-2x col-md-2" aria-hidden="true" style="color:white" onclick="pushToRemote()" title="Push"></i></li>
-            <li class="download"><i class="fa fa-cloud-download fa-2x col-md-2" aria-hidden="true" style="color:white" onclick="pullFromRemote()" title="Pull"></i></li>
+            <li class="upload" style="list-style-type: none;"><i class="fa fa-cloud-upload fa-2x col-md-2" aria-hidden="true" style="color:white" onclick="pushToRemote()" title="Push"></i></li>
+            <li class="download" style="list-style-type: none;"><i class="fa fa-cloud-download fa-2x col-md-2" aria-hidden="true" style="color:white" onclick="pullFromRemote()" title="Pull"></i></li>
           </ul>
 
           <ul class="navbar-nav navbar-right hidden-xs">
-            <li>
+            <li style="list-style-type: none;">
               <a class="btn btn-default btn-outline btn-circle"  id="avatar" data-toggle="collapse" href="#nav-collapse1" aria-expanded="false" aria-controls="nav-collapse1">Sign in</a>
             </li>
           </ul>
